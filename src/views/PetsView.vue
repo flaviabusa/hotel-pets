@@ -51,10 +51,7 @@ onMounted(carregarDados);
       </thead>
 
       <tbody>
-        <tr
-          v-for="pet in pets"
-          :key="pet.id"
-        >
+        <tr v-for="pet in pets" :key="pet.id" >
           <td>{{ pet.id }}</td>
           <td>{{ pet.nome }}</td>
           <td>{{ pet.especie }}</td>
