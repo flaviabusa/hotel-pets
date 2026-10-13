@@ -46,13 +46,9 @@
     <header class="mb-4">
       <h1 class="text-2xl font-bold">Cadastro de Pets</h1>
       <p class="text-body-secundary mb-0">
-        Cadastro de pets no sitema.
+        Cadastro de pets no sistema.
       </p>
     </header>
-
-    <RouterLink class="btn btn-primary" :to="{ name: 'novo-pet' }">
-      Adicionar Pet
-    </RouterLink>
 
     <form class="row" @submit.prevent="salvarPet">
       <!-- nome do pet-->
