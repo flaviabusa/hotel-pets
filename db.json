@@ -41,6 +41,18 @@
       "especie": "Gato",
       "tutorId": "Carlos",
       "id": "GoQanJi1Rsw"
+    },
+    {
+      "nome": "Diana",
+      "especie": "Coelho",
+      "tutorId": "1",
+      "id": "GO1ZruPWBLI"
+    },
+    {
+      "nome": "Diana",
+      "especie": "Tartaruga",
+      "tutorId": "",
+      "id": "6l0S4Fpn4w8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
