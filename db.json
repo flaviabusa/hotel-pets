@@ -13,42 +13,6 @@
   ],
   "pets": [
     {
-      "id": "1",
-      "nome": "Safira",
-      "especie": "Cachorro",
-      "tutorId": "1"
-    },
-    {
-      "id": "2",
-      "nome": "Nino",
-      "especie": "Gato",
-      "tutorId": "1"
-    },
-    {
-      "nome": "Diana",
-      "especie": "",
-      "tutorId": "",
-      "id": "uYjhu7a5GWE"
-    },
-    {
-      "nome": "Diana",
-      "especie": "Cachorro",
-      "tutorId": "Carlos",
-      "id": "qSZl0zTaGV4"
-    },
-    {
-      "nome": "Diana",
-      "especie": "Gato",
-      "tutorId": "Carlos",
-      "id": "GoQanJi1Rsw"
-    },
-    {
-      "nome": "Diana",
-      "especie": "Coelho",
-      "tutorId": "1",
-      "id": "GO1ZruPWBLI"
-    },
-    {
       "nome": "Diana",
       "especie": "Tartaruga",
       "tutorId": "",
