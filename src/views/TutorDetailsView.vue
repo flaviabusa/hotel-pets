@@ -25,9 +25,14 @@ onMounted(carregarTutor);
 
  </section>
  <section v-else>
-    <h1>Nome do Tutor: {{ tutor.nome }}</h1>
+    <h1>Detalhes do tutor</h1>
+    <p>Visualize os dados do tutor e cadastre pets vinculados.</p>
+
+    <h2>Informações do Tutor</h2>
+
+    <p>Nome do tutor: {{ tutor.nome }}</p>
     <p>ID: {{ tutor.id }}</p>
-    <h5>Telefone: {{ tutor.telefone }}</h5>
+    <p>Telefone: {{ tutor.telefone }}</p>
  </section>
     
 </template>

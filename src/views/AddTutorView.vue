@@ -8,6 +8,8 @@ const API_URL = 'http://localhost:3000'; //chamando minha API
 const novoTutor = ref({
   nome: '',
   telefone: '',
+  cpf: '',
+  email:'',
   endereco: {
     rua: '',
     numero: '',
@@ -67,6 +69,7 @@ async function salvarTutor() {
             id="nome"
             v-model="novoTutor.nome"
             required
+            placeholder="Digite o nome completo"
           />
         </label>
       </div>
@@ -78,7 +81,32 @@ async function salvarTutor() {
             class="form-control"
             id="telefone"
             v-model="novoTutor.telefone"
-            required>
+            required
+            placeholder="(00) 00000-0000">
+        </label>
+      </div>
+      <div class="col-md-6">
+        <label for="cpf" class="form-label">
+            CPF / CNPJ:
+            <input 
+            type="text"
+            class="form-control"
+            id="cpf"
+            v-model="novoTutor.cpf"
+            required
+            placeholder="Digite o CPF ou CNPJ">
+        </label>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">
+            E-mail:
+            <input 
+            type="email"
+            class="form-control"
+            id="email"
+            v-model="novoTutor.email"
+            required
+            placeholder="E-mail">
         </label>
       </div>
       <h3>Endereço</h3>
